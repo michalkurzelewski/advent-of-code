@@ -97,7 +97,7 @@ var result6 = allDirectories.Where(x => x.Size >= minnimum2).Min(x => x.Size);
 Console.WriteLine(result5);
 Console.WriteLine(result6);
 
-class Directory
+internal class Directory
 {
     public string Name { get; set; }
     public long Size { get; set; }

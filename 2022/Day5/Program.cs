@@ -28,7 +28,7 @@ foreach (var line in lines)
     {
         move += stacks[numbers[1] - 1].Pop();
     }
-    for (int i = move.Length-1; i >=0; i--)
+    for (int i = move.Length - 1; i >= 0; i--)
     {
         stacks[numbers[2] - 1].Push(move[i]);
     }
@@ -37,8 +37,7 @@ foreach (var line in lines)
 for (int i = 0; i < stacks.Length; i++)
     stacks[i].Peek();
 
-
-class Stack
+internal class Stack
 {
     static readonly int MAX = 1000;
     int top = -1;

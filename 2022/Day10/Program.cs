@@ -9,7 +9,7 @@ for (int i = 0; i < lines.Count; i++)
     cycle++;
     if (cycle % 40 == 0) Console.WriteLine();
 
-    if (cycle % 40 == 20) 
+    if (cycle % 40 == 20)
         sum += cycle * register;
 
     var command = lines[i].Split(' ');

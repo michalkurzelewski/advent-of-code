@@ -4,12 +4,12 @@ Console.WriteLine(result);
 
 int FindPriority(string line)
 {
-    var a = line.Substring(0,line.Length/2);
+    var a = line.Substring(0, line.Length / 2);
     var b = line.Substring(line.Length / 2, line.Length / 2);
 
     foreach (var character in a)
     {
-        if(b.Contains(character)) return ConvertToPriority(character);
+        if (b.Contains(character)) return ConvertToPriority(character);
     }
     return 0;
 }
@@ -28,7 +28,7 @@ int ConvertToPriority(char a)
 }
 
 int sum2 = 0;
-for (int i = 0; i < lines.Count(); i=i+3)
+for (int i = 0; i < lines.Count(); i = i + 3)
 {
     foreach (var character in lines[i])
     {

@@ -3,7 +3,7 @@
 //Paper (B) (Y) 
 //Scissors (C) (Z)
 
-var a = new Dictionary<string, int> 
+var a = new Dictionary<string, int>
 {
     { "A X", 3},
     { "A Y", 6},

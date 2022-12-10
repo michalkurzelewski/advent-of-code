@@ -25,7 +25,7 @@ foreach (var line in lines)
             "D" => new[] { 0, -1 },
         }, (x, y) => x + y).ToArray();
 
-        for (int j = 0; j < 9; j++) 
+        for (int j = 0; j < 9; j++)
             points[j + 1] = MovePoint(points[j], points[j + 1]);
 
         visited1.Add($"{points[1][0]} {points[1][1]}");
