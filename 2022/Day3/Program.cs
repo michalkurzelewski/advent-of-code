@@ -1,31 +1,29 @@
 ﻿var lines = File.ReadLines(@"input.txt").ToList();
-var result = lines.Sum(line => FindPriority(line));
-Console.WriteLine(result);
-
-int FindPriority(string line)
-{
-    var a = line.Substring(0, line.Length / 2);
-    var b = line.Substring(line.Length / 2, line.Length / 2);
-
-    foreach (var character in a)
-    {
-        if (b.Contains(character)) return ConvertToPriority(character);
-    }
-    return 0;
-}
-
-var linqResult1 = lines.Select(line =>
-    {
-        var character = line.First(x => line.Substring(line.Length / 2, line.Length / 2).Any(y => y == x));
-        return ConvertToPriority(character);
-    }).Sum();
-Console.WriteLine(linqResult1);
 
 int ConvertToPriority(char a)
 {
     if (a >= 'a') return a - 'a' + 1;
     else return a - 'A' + 27;
 }
+
+var sum1 = lines.Sum(line => 
+{
+    var halfs = line.Insert(line.Length / 2, "|").Split('|');
+
+    foreach (var c in halfs[0])
+        if (halfs[1].Contains(c)) return ConvertToPriority(c);
+    return 0;
+});
+Console.WriteLine(sum1);
+
+
+var linqSum1 = lines.Select(line =>
+    {
+        var c = line.First(x => line.Substring(line.Length / 2, line.Length / 2).Any(y => y == x));
+        return ConvertToPriority(c);
+    }).Sum();
+Console.WriteLine(linqSum1);
+
 
 int sum2 = 0;
 for (int i = 0; i < lines.Count(); i = i + 3)
@@ -41,7 +39,8 @@ for (int i = 0; i < lines.Count(); i = i + 3)
 }
 Console.WriteLine(sum2);
 
-var linqResult2 = lines.Where((x, i) => i % 3 == 0)
+
+var linqSum2 = lines.Where((x, i) => i % 3 == 0)
     .Select((line, i) =>
     {
         var character = line.First(x =>
@@ -49,4 +48,4 @@ var linqResult2 = lines.Where((x, i) => i % 3 == 0)
              && lines[i * 3 + 2].Any(y => y == x));
         return ConvertToPriority(character);
     }).Sum();
-Console.WriteLine(linqResult2);
+Console.WriteLine(linqSum2);

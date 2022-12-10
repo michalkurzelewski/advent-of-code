@@ -45,7 +45,8 @@ internal class Stack
 
     public Stack(string start)
     {
-        foreach (var character in start) Push(character);
+        foreach (var character in start) 
+            Push(character);
     }
     public void Push(char data) => stack[++top] = data;
     public char Pop() => stack[top--];

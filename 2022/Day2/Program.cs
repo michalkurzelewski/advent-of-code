@@ -1,7 +1,4 @@
 ﻿var lines = File.ReadLines(@"input.txt").ToList();
-//Rock (A) (X)
-//Paper (B) (Y) 
-//Scissors (C) (Z)
 
 var a = new Dictionary<string, int>
 {
