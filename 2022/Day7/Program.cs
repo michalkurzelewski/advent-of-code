@@ -1,4 +1,4 @@
-﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\Day7\input.txt").ToList();
+﻿var lines = File.ReadLines(@"input.txt").ToList();
 
 var paths = new Dictionary<string, long>();
 var path = string.Empty;
@@ -49,9 +49,6 @@ var minnimum = 30000000 - (70000000 - paths["-/"]);
 var result2 = paths.Where(x => x.Value >= minnimum).Min(x => x.Value);
 Console.WriteLine(result1);
 Console.WriteLine(result2);
-
-
-
 
 
 var directory = new Directory();

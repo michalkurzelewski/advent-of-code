@@ -1,4 +1,4 @@
-﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\Day10\input.txt").ToList();
+﻿var lines = File.ReadLines(@"input.txt").ToList();
 var sum = 0;
 var register = 1;
 var cycle = 0;

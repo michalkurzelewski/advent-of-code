@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\Day5\input.txt").ToList();
+var lines = File.ReadLines(@"input.txt").ToList();
 
 //Stack[] stacks = new[] {
 //    new Stack("ZN"),

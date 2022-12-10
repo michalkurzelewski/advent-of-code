@@ -1,4 +1,4 @@
-﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\Day8\input.txt").ToList();
+﻿var lines = File.ReadLines(@"input.txt").ToList();
 
 var sum = lines.Count() * 4 - 4;
 int sum2 = 0;

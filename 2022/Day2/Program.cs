@@ -1,4 +1,4 @@
-﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\Day2\input.txt").ToList();
+﻿var lines = File.ReadLines(@"input.txt").ToList();
 //Rock (A) (X)
 //Paper (B) (Y) 
 //Scissors (C) (Z)
