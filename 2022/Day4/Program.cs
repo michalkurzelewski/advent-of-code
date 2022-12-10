@@ -1,4 +1,4 @@
-﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\DayFour\input.txt").ToList();
+﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\Day4\input.txt").ToList();
 var sum = 0;
 var sum2 = 0;
 foreach (var line in lines)

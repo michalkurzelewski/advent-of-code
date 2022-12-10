@@ -1,4 +1,4 @@
-﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\DayThree\input.txt").ToList();
+﻿var lines = File.ReadLines(@"C:\Projects\AdventOfCode\2022\Day3\input.txt").ToList();
 var result = lines.Sum(line => FindPriority(line));
 Console.WriteLine(result);
 

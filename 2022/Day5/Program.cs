@@ -20,17 +20,6 @@ Stack[] stacks = new[] {
     new Stack("ZNWTVMPC"),
 };
 
-//foreach (var line in lines)
-//{
-//    var numbers = Regex.Matches(line, @"\d+").Select(x=> int.Parse(x.Value)).ToArray();
-
-//    for (int i = 0; i < numbers[0]; i++)
-//    {
-//        var move = stacks[numbers[1]-1].Pop();
-//        stacks[numbers[2]-1].Push(move);
-//    }
-//}
-
 foreach (var line in lines)
 {
     var numbers = Regex.Matches(line, @"\d+").Select(x => int.Parse(x.Value)).ToArray();
@@ -46,9 +35,8 @@ foreach (var line in lines)
 }
 
 for (int i = 0; i < stacks.Length; i++)
-{
     stacks[i].Peek();
-}
+
 
 class Stack
 {
@@ -58,10 +46,7 @@ class Stack
 
     public Stack(string start)
     {
-        foreach (var character in start)
-        {
-            Push(character);
-        }
+        foreach (var character in start) Push(character);
     }
     public void Push(char data) => stack[++top] = data;
     public char Pop() => stack[top--];
