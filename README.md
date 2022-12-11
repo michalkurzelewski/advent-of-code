@@ -15,3 +15,4 @@ My solutions to the Advent of Code - https://adventofcode.com
 | [Day 8: Treetop Tree House](https://adventofcode.com/2022/day/8) | [Source](2022/Day8/Program.cs) |
 | [Day 9: Rope Bridge](https://adventofcode.com/2022/day/9) | [Source](2022/Day9/Program.cs) |
 | [Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | [Source](2022/Day10/Program.cs) |
+| [Day 11: Monkey in the Middle](https://adventofcode.com/2022/day/11) | [Source](2022/Day11/Program.cs) |
