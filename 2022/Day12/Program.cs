@@ -32,14 +32,10 @@ for (int i = 0; i < lines.Count(); i++)
     }
 }
 
-int counter = 0;
-
 while (true)
 {
     var check = nextToCheck.OrderBy(x => x.Distance).First();
     nextToCheck.Remove(check);
-    counter++;
-    if (counter > nodes[0].Count() * nodes.Count()) break;
 
     if (check.X == endX && check.Y == endY) break;
 
