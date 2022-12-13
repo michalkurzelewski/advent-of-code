@@ -16,3 +16,5 @@ My solutions to the Advent of Code - https://adventofcode.com
 | [Day 9: Rope Bridge](https://adventofcode.com/2022/day/9) | [Source](2022/Day9/Program.cs) |
 | [Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | [Source](2022/Day10/Program.cs) |
 | [Day 11: Monkey in the Middle](https://adventofcode.com/2022/day/11) | [Source](2022/Day11/Program.cs) |
+| [Day 12: Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | [Source](2022/Day12/Program.cs) |
+| [Day 13: Distress Signal](https://adventofcode.com/2022/day/13) | [Source](2022/Day13/Program.cs) |
