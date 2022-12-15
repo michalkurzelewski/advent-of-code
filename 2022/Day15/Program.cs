@@ -5,11 +5,7 @@ var sensors = lines.Select(line =>
 {
     var numbers = Regex.Matches(line, @"\d+").Select(x => int.Parse(x.Value)).ToArray();
     var distance = Math.Abs(numbers[2] - numbers[0]) + Math.Abs(numbers[3] - numbers[1]);
-
-    var x = numbers[0];
-    var y = numbers[1];
-
-    return new { x, y, distance };
+    return new { x = numbers[0], y = numbers[1], distance };
 }).ToList();
 
 
