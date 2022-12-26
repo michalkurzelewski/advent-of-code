@@ -25,3 +25,4 @@ My solutions to the Advent of Code - https://adventofcode.com
 | [Day 18: Boiling Boulders](https://adventofcode.com/2022/day/18) | [Source](2022/Day18/Program.cs) |
 | [Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20) | [Source](2022/Day20/Program.cs) |
 | [Day 21: Monkey Math](https://adventofcode.com/2022/day/21) | [Source](2022/Day21/Program.cs) |
+| [Day 25: Full of Hot Air](https://adventofcode.com/2022/day/25) | [Source](2022/Day25/Program.cs) |
