@@ -26,4 +26,5 @@ My solutions to the Advent of Code - https://adventofcode.com
 | [Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20) | [Source](2022/Day20/Program.cs) |
 | [Day 21: Monkey Math](https://adventofcode.com/2022/day/21) | [Source](2022/Day21/Program.cs) |
 | [Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23) | [Source](2022/Day23/Program.cs) |
+| [Day 24: Blizzard Basin](https://adventofcode.com/2022/day/24) | [Source](2022/Day24/Program.cs) |
 | [Day 25: Full of Hot Air](https://adventofcode.com/2022/day/25) | [Source](2022/Day25/Program.cs) |
