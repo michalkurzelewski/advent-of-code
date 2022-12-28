@@ -1,9 +1,9 @@
 ﻿var lines = File.ReadLines(@"input.txt").ToList();
-var sum = 0;
-var sum2 = 0;
+var (sum, sum2) = (0, 0);
+
 foreach (var line in lines)
 {
-    var numbers = line.Split(new char[] { ',', '-' }).Select(x => int.Parse(x)).ToArray();
+    var numbers = line.Split(',', '-').Select(int.Parse).ToArray();
     var left = Enumerable.Range(numbers[0], numbers[1] - numbers[0] + 1);
     var right = Enumerable.Range(numbers[2], numbers[3] - numbers[2] + 1);
 

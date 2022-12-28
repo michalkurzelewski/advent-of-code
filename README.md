@@ -23,6 +23,7 @@ My solutions to the Advent of Code - https://adventofcode.com
 | [Day 16: Proboscidea Volcanium](https://adventofcode.com/2022/day/16) | [Source](2022/Day16/Program.cs) |
 | [Day 17: Pyroclastic Flow](https://adventofcode.com/2022/day/17) | [Source](2022/Day17/Program.cs) |
 | [Day 18: Boiling Boulders](https://adventofcode.com/2022/day/18) | [Source](2022/Day18/Program.cs) |
+| [Day 19: Not Enough Minerals](https://adventofcode.com/2022/day/19) | [Source](2022/Day19/Program.cs) |
 | [Day 20: Grove Positioning System](https://adventofcode.com/2022/day/20) | [Source](2022/Day20/Program.cs) |
 | [Day 21: Monkey Math](https://adventofcode.com/2022/day/21) | [Source](2022/Day21/Program.cs) |
 | [Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23) | [Source](2022/Day23/Program.cs) |
