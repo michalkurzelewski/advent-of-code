@@ -29,3 +29,10 @@ My solutions to the Advent of Code - https://adventofcode.com
 | [Day 23: Unstable Diffusion](https://adventofcode.com/2022/day/23) | [Source](2022/Day23/Program.cs) |
 | [Day 24: Blizzard Basin](https://adventofcode.com/2022/day/24) | [Source](2022/Day24/Program.cs) |
 | [Day 25: Full of Hot Air](https://adventofcode.com/2022/day/25) | [Source](2022/Day25/Program.cs) |
+
+## 2020
+
+| Problem | Solution |
+| --- | --- |
+| [Day 1: Report Repair](https://adventofcode.com/2020/day/1) | [Source](2020/Day1/Program.cs) |
+| [Day 2: Password Philosophy](https://adventofcode.com/2020/day/2) | [Source](2020/Day2/Program.cs) |
