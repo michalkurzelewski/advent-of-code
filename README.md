@@ -1,6 +1,12 @@
 # Advent of Code
 My solutions to the Advent of Code - https://adventofcode.com
 
+## 2023
+
+| Problem | Solution |
+| --- | --- |
+| [Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1) | [Source](2023/Day1/Program.cs) |
+
 ## 2022
 
 | Problem | Solution |

@@ -1,13 +1,13 @@
 ﻿var task1 = File.ReadLines(@"input.txt").ToList();
 var task2 = task1.Select(x => x.Replace("one", "one1one")
-    .Replace("two", "two2two")
-    .Replace("three", "three3three")
-    .Replace("four", "four4four")
-    .Replace("five", "five5five")
-    .Replace("six", "six6six")
-    .Replace("seven", "seven7seven")
-    .Replace("eight", "eight8eight")
-    .Replace("nine", "nine9nine"))
+    .Replace("two", "t2wo")
+    .Replace("three", "th3ree")
+    .Replace("four", "fo4ur")
+    .Replace("five", "fi5ve")
+    .Replace("six", "si6x")
+    .Replace("seven", "se7ven")
+    .Replace("eight", "ei8ght")
+    .Replace("nine", "ni9ne"))
     .ToList();
 
 static int Sum(List<string> lines) => lines
