@@ -11,8 +11,8 @@ var task2 = task1.Select(x => x.Replace("one", "one1one")
     .ToList();
 
 static int Sum(List<string> lines) => lines
-    .Select(line => line.Where(char.IsDigit).ToArray())
-    .Select(line => int.Parse($"{line[0]}{line[^1]}"))
+    .Select(x => x.Where(char.IsDigit).ToArray())
+    .Select(x => int.Parse([x[0], x[^1]]))
     .Sum();
 
 Console.WriteLine(Sum(task1));
