@@ -1,5 +1,6 @@
 ﻿var task1 = File.ReadLines(@"input.txt");
-var task2 = task1.Select(x => x.Replace("one", "one1one")
+var task2 = task1.Select(x => x
+    .Replace("one", "on1e")
     .Replace("two", "t2wo")
     .Replace("three", "th3ree")
     .Replace("four", "fo4ur")

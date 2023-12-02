@@ -6,6 +6,7 @@ My solutions to the Advent of Code - https://adventofcode.com
 | Problem | Solution |
 | --- | --- |
 | [Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1) | [Source](2023/Day1/Program.cs) |
+| [Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2) | [Source](2023/Day2/Program.cs) |
 
 ## 2022
 
